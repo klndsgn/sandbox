@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACQ,qCAA0B;ACK5B,kBAAE;EACA,UAAU,ECPL,OAAO;EDQZ,KAAK,ECPL,IAAI",
+"sources": ["mixing.scss","navi.scss","variables.scss"],
+"names": [],
+"file": "mixing.css"
+}

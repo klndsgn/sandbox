@@ -1,0 +1,48 @@
+nav {
+
+  margin: 40px 40px;
+
+  .navbar-brand {
+    font-size: 2em;
+
+    small {
+      font-size: 1em;
+      font-weight: lighter;
+      color: $light-grey;
+    }
+  }
+
+  .navbar-nav {
+    margin-top: 15px;
+  }
+
+  ul {
+
+    li.menu-item {
+
+      a {
+        background: $white;
+        color: $black;
+        padding: 5px 10px;
+      }
+      a:hover,
+      a:active,
+      a:focus {
+        background: $base-color;
+        color: $white;
+      }
+    }
+
+    li.active {
+
+      a,
+      a:hover,
+      a:active,
+      a:focus {
+        background: $base-color;
+        color: $white;
+        padding: 5px 10px;
+      }
+    }
+  }
+}

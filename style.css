@@ -1,0 +1,84 @@
+@import url(bootstrap/css/bootstrap.min.css);
+nav {
+  margin: 40px 40px; }
+  nav .navbar-brand {
+    font-size: 2em; }
+    nav .navbar-brand small {
+      font-size: 1em;
+      font-weight: lighter;
+      color: #666; }
+  nav .navbar-nav {
+    margin-top: 15px; }
+  nav ul li.menu-item a {
+    background: #fff;
+    color: #333;
+    padding: 5px 10px; }
+  nav ul li.menu-item a:hover,
+  nav ul li.menu-item a:active,
+  nav ul li.menu-item a:focus {
+    background: #1488c8;
+    color: #fff; }
+  nav ul li.active a,
+  nav ul li.active a:hover,
+  nav ul li.active a:active,
+  nav ul li.active a:focus {
+    background: #1488c8;
+    color: #fff;
+    padding: 5px 10px; }
+
+html, body {
+  height: 100%; }
+
+.main-top {
+  background: #1488c8;
+  color: #fff;
+  margin-bottom: 5%; }
+  .main-top header {
+    padding: 5% 0%; }
+    .main-top header h1 a {
+      color: #fff;
+      font-size: 2em; }
+    .main-top header h1 small ul {
+      padding: 0;
+      margin: 0; }
+      .main-top header h1 small ul li {
+        font-size: 1.5em;
+        font-weight: lighter;
+        text-transform: uppercase;
+        list-style: none;
+        color: #fff; }
+        .main-top header h1 small ul li span {
+          display: none; }
+  .main-top .marker {
+    margin-bottom: -7px;
+    margin-left: 10%;
+    width: 20px;
+    background-image: url("../assets/marker.png"); }
+
+.container.main {
+  min-height: 33%; }
+  .container.main .sub_header {
+    width: 100%;
+    padding: 5% 0%;
+    text-align: center;
+    font-size: 5em; }
+
+footer {
+  background: #333;
+  color: #fff;
+  margin-top: 5%;
+  padding-top: 5%; }
+  footer ul {
+    margin: 0;
+    padding: 0; }
+    footer ul li {
+      list-style: none;
+      display: inline; }
+  footer .footer-menu-wrapper {
+    float: right; }
+    footer .footer-menu-wrapper a {
+      display: inline-block;
+      padding: 0px 10px;
+      color: #ddd; }
+
+/*# sourceMappingURL=style.css.map */
