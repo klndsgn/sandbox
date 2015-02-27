@@ -61,10 +61,12 @@ html, body {
 
 
 footer {
-  background: $black;
-  color: $white;
+  //background: $black;
+  color: $black;
   margin-top: 5%;
-  padding-top: 5%;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  border-top: 2px solid #ccc;
 
   ul {
     margin: 0;
@@ -81,6 +83,33 @@ footer {
       display: inline-block;
       padding: 0px 10px;
       color: $lighter;
+    }
+  }
+}
+
+.click_bar {
+  margin-top: 5%;
+
+  div {
+    padding: 0;
+    a {
+      display: block;
+      background: $lighter;
+      text-align: center;
+      padding: 33% 0%;
+      border: none;
+      color: $base-color;
+      border: 1px solid #fff;
+      span {
+        font-size: 4em;
+      }
+    }
+    a:hover,
+    a:focus,
+    a:hover {
+      background: $base-color;
+      color: $white;
+      text-decoration: none;
     }
   }
 }

@@ -9,6 +9,10 @@ nav {
       color: #666; }
   nav .navbar-nav {
     margin-top: 15px; }
+  nav .navbar-toggle {
+    font-size: 1.3em;
+    margin-top: 4px;
+    color: #1488c8; }
   nav ul li.menu-item a {
     background: #fff;
     color: #333;
@@ -25,6 +29,15 @@ nav {
     background: #1488c8;
     color: #fff;
     padding: 5px 10px; }
+  nav .nav .open > a,
+  nav .nav .open > a:hover,
+  nav .nav .open > a:focus {
+    background-color: #1488c8;
+    border-color: #428bca;
+    color: #fff; }
+
+.dropdown-menu {
+  border-radius: 0px; }
 
 html, body {
   height: 100%; }
@@ -64,10 +77,11 @@ html, body {
     font-size: 5em; }
 
 footer {
-  background: #333;
-  color: #fff;
+  color: #333;
   margin-top: 5%;
-  padding-top: 5%; }
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  border-top: 2px solid #ccc; }
   footer ul {
     margin: 0;
     padding: 0; }
@@ -80,5 +94,26 @@ footer {
       display: inline-block;
       padding: 0px 10px;
       color: #ddd; }
+
+.click_bar {
+  margin-top: 5%; }
+  .click_bar div {
+    padding: 0; }
+    .click_bar div a {
+      display: block;
+      background: #ddd;
+      text-align: center;
+      padding: 33% 0%;
+      border: none;
+      color: #1488c8;
+      border: 1px solid #fff; }
+      .click_bar div a span {
+        font-size: 4em; }
+    .click_bar div a:hover,
+    .click_bar div a:focus,
+    .click_bar div a:hover {
+      background: #1488c8;
+      color: #fff;
+      text-decoration: none; }
 
 /*# sourceMappingURL=style.css.map */

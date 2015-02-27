@@ -16,6 +16,12 @@ nav {
     margin-top: 15px;
   }
 
+  .navbar-toggle{
+    font-size: 1.3em;
+    margin-top: 4px;
+    color: $base-color;
+  }
+
   ul {
 
     li.menu-item {
@@ -45,4 +51,19 @@ nav {
       }
     }
   }
+  .nav .open>a,
+  .nav .open>a:hover,
+  .nav .open>a:focus {
+    background-color: $base-color;
+    border-color: #428bca;
+    color: $white;
+  }
+  .caret {
+    //color: $white;
+    //border: $base-color;
+  }
+}
+
+.dropdown-menu {
+  border-radius: 0px;
 }

@@ -103,12 +103,8 @@ defined('ABSPATH') or die();
 
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header pull-right">
-                                        <span class="navbar-toggled-title visible-xs"><?php printf(__('Menu')) ?></span>
                                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                                            <span class="sr-only">Toggle navigation</span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
-                                            <span class="icon-bar"></span>
+                                            <span class="glyphicon glyphicon-th-list"></span>
                                         </button>
                                     </div>
 
